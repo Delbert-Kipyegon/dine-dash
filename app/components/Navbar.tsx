@@ -12,7 +12,7 @@ const Navbar = () => {
 	return (
 		<nav className="bg-[#FDECD2] text-[#84201A] font-baloo p-4 fixed w-full top-0 z-50 shadow-lg">
 			<div className="container mx-auto flex justify-between items-center">
-				{/* Logo */}
+			
 				<div className="text-2xl font-bold flex items-center">DineDash</div>
 
 				{/* Desktop Navigation Links */}
