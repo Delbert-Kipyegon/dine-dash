@@ -32,7 +32,7 @@
 
 ## Demo
 
-**Live Demo**: [DineDash Demo](https://dinedash.vercel.app)
+**Live Demo**: [DineDash Demo](https://dine-dash-orcin.vercel.app)
 
 ---
 
