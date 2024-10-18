@@ -8,7 +8,7 @@ const BackgroundSolution = () => {
 				<h2 className="text-4xl font-bold mb-8 text-deepRed">My Solution</h2>
 				<p className="text-lg leading-relaxed mb-8">
 					DineDash combines AI and nutrition expertise to create meal plans that
-					help you stay on track with your dietary needs. Whether you're
+					help you stay on track with your dietary needs. Whether you&apos;re
 					managing allergies or following a special diet, DineDash has you
 					covered.
 					<br />

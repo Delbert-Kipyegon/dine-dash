@@ -1,4 +1,4 @@
-"use client"; 
+"use client";
 
 import React, { useState } from "react";
 
@@ -10,14 +10,14 @@ const MealPlanner = () => {
 
 	const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
 		setFoodPreferences(e.target.value);
-		setError(""); 
+		setError("");
 	};
 
 	const handleSubmit = async (e: React.FormEvent) => {
 		e.preventDefault();
 		setLoading(true);
-		setMealPlan(null); 
-		setError(""); 
+		setMealPlan(null);
+		setError("");
 
 		try {
 			const response = await fetch("/api/generate-meal-plan", {
@@ -35,7 +35,7 @@ const MealPlanner = () => {
 				const errorResponse = await response.json();
 				setError(errorResponse.error || "Error generating meal plan");
 			}
-		} catch (error) {
+		} catch {
 			setError(
 				"An error occurred while generating the meal plan. Please try again."
 			);

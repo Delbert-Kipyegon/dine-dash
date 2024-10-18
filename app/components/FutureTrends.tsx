@@ -8,7 +8,7 @@ const FutureTrends = () => {
 			className="py-20 bg-highlightYellow text-deepRed"
 		>
 			<div className="container mx-auto text-center px-6">
-				<h2 className="text-4xl font-bold mb-12">What's Next?</h2>
+				<h2 className="text-4xl font-bold mb-12">What&apos;s Next?</h2>
 				<p className="text-lg leading-relaxed mb-12">
 					The future of meal planning is AI-driven personalization. We aim to
 					integrate more dietary trends, real-time grocery shopping options, and
