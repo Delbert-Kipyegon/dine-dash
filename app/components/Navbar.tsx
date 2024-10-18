@@ -10,17 +10,23 @@ const Navbar = () => {
 	};
 
 	return (
-		<nav className="bg-[#FDECD2] text-[#84201A] font-baloo p-4 fixed w-full top-0 z-50 shadow-lg">
+		<nav className="bg-highlightYellow text-[#84201A] font-baloo p-4 fixed w-full top-0 z-50 shadow-lg">
 			<div className="container mx-auto flex justify-between items-center">
-			
-				<div className="text-2xl font-bold flex items-center">DineDash</div>
+				<div className="text-2xl font-bold flex items-center">
+					<a
+						href="/"
+						className=" transition duration-200 cursor-pointer"
+					>
+						DineDash
+					</a>
+				</div>
 
 				{/* Desktop Navigation Links */}
 				<ul className="hidden md:flex space-x-6 text-lg">
 					<li>
 						<a
 							href="#features"
-							className="hover:text-[#FDCB4B] transition duration-200"
+							className="hover:text-cream transition duration-200"
 						>
 							Features
 						</a>
@@ -28,7 +34,7 @@ const Navbar = () => {
 					<li>
 						<a
 							href="#background"
-							className="hover:text-[#FDCB4B] transition duration-200"
+							className="hover:text-cream transition duration-200"
 						>
 							Background
 						</a>
@@ -36,7 +42,7 @@ const Navbar = () => {
 					<li>
 						<a
 							href="#future"
-							className="hover:text-[#FDCB4B] transition duration-200"
+							className="hover:text-cream transition duration-200"
 						>
 							Future
 						</a>
@@ -44,7 +50,7 @@ const Navbar = () => {
 					<li>
 						<a
 							href="#team"
-							className="hover:text-[#FDCB4B] transition duration-200"
+							className="hover:text-cream transition duration-200"
 						>
 							Team
 						</a>
@@ -65,7 +71,7 @@ const Navbar = () => {
 						<li>
 							<a
 								href="#features"
-								className="block text-lg hover:text-[#FDCB4B]"
+								className="block text-lg hover:text-cream"
 							>
 								Features
 							</a>
@@ -73,7 +79,7 @@ const Navbar = () => {
 						<li>
 							<a
 								href="#background"
-								className="block text-lg hover:text-[#FDCB4B]"
+								className="block text-lg hover:text-cream"
 							>
 								Background
 							</a>
@@ -81,7 +87,7 @@ const Navbar = () => {
 						<li>
 							<a
 								href="#future"
-								className="block text-lg hover:text-[#FDCB4B]"
+								className="block text-lg hover:text-cream"
 							>
 								Future
 							</a>
@@ -89,7 +95,7 @@ const Navbar = () => {
 						<li>
 							<a
 								href="#team"
-								className="block text-lg hover:text-[#FDCB4B]"
+								className="block text-lg hover:text-cream"
 							>
 								Team
 							</a>
